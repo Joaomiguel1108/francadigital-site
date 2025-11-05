@@ -1,11 +1,14 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(197, 0, 0);
 
-    background-image: url('mcr.jpg');
+    background-image: url('BaVdUv.png');
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:50%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-attachment: fixed;
     bottom: 0;
     color: black;
     Left: 0;
@@ -18,15 +21,24 @@ body{
 }
 
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'url(my_chemical_romance.ttf)';
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: rgb(197, 0, 0);
     text-align: center;
 }
 
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(197, 0, 0);
     text-align: left;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(114, 2, 2);
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
 }
